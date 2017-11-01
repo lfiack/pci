@@ -1,4 +1,4 @@
-\documentclass[pdftex,a4paper,12pt]{report}
+\documentclass[pdftex,a4paper,12pt]{article}
 
 \usepackage[francais]{babel}
 \usepackage{epsfig}
@@ -29,7 +29,7 @@
 \usepackage{subcaption}
 
 \usepackage{minitoc}
-\setcounter{minitocdepth}{3}
+%\setcounter{minitocdepth}{3}
 \mtcselectlanguage{french} 
 
 \usepackage{hyperref}
@@ -60,6 +60,8 @@
 	\input{title}
 %Une introduction d’une quinzaine de lignes pour indiquer le contexte
 %(situation géographique, effectif...) 
+	\section{Introduction}
+	\subsection{Contexte général}
 	Jeune professeur agrégé stagiaire, j'ai pris mes fonctions il y a environ deux mois au Lycée Blaise Pascal de Rouen, 
 	situé au c\oe{}ur de la ville sur la rive gauche de la Seine.
 	Ce lycée est assez imposant puisqu'il accueille environ 1200 élèves, près de 120 enseignants et plus de 60 personnels non-enseignants.\\
@@ -72,5 +74,106 @@
 	J'interviens également une heure par semaine en classe entière, dans la même matière, ainsi qu'une heure en accompagnement personalisé.\\
 
 	À travers ce document, je vais tenter de développer une analyse réflexive sur la démarche pédagogique que j'ai mise en place depuis ma prise de fonction,
-	en m'appuyant sur les remarques formulées par mes tuteurs terrain et ESPE au cours de la visite conseil du lundi 2 octobre 2017.\\
+	en m'appuyant sur les remarques formulées par mes tuteurs terrain et ESPE au cours de la visite conseil 
+	d'une des séances d'application pratique le lundi 2 octobre 2017.
+
+	\subsection{La séance en question}
+	La séance visitée était la dernière d'une séquence de trois activités d'étude de dossier pour découvrir du langage SysML.
+	Au cours de cette séquence, les élèves ont d'abord découvert quelques notions par l'étude d'un scooter sous-marin lors de la première activité. 
+	Ils ont ensuite approfondi ces notions dans l'étude d'une voiture télécommandée avec la deuxième activité
+	pour finalement aborder tous les diagrammes du langage SysML au programme de la STI2D pendant la troisième activité.
+
+	Cette dernière étude de dossier concerne un aménagement urbain : une borne escamotable.
+	Au cours de cette activité, les élèves disposaient d'une page web agrégeant les ressources ainsi que
+	d'un document au format Word pour répondre à une série de questions. 
+	
+	Le choix de réaliser des activités spécifiquement centrées sur le langage SysML est discutable. 
+	Si ce choix a été fait, c'est par demande du collègue professeur de spécialité SIN car il se base sur ce prérequis.
+	À mon sens, il serait plus judicieux de distiller la découverte du SysML par l'étude de systèmes tout au long de l'année 
+	dans le cadre d'activités sur d'autre thématiques.
+
+	\subsection{Les points à travailler}
+	Parmis les remarques formulées, quatre ont été mise en avant par mes tuteurs:
+	\begin{enumerate}
+		\item Au cours de la séance visitée, les élèves étaient chacun face à un ordinateur et travaillent avec un questionnaire, des ressource et le document réponse. 
+			Pourquoi ne pas les faire travailler en binôme ?
+		\item Organisation de la fiche professeur de préparation de séance, listant de manière plus où moins détaillée l'ensemble des points à aborder.
+		\item Ajouter plus de concret, plus d'interactivité classe/professeur, et varier les supports.
+		\item Approfondir et tester une idée d'activité \og{}fil rouge\fg{} sur l'année ou le trimestre pour les élèves finissant le travail en avance.
+	\end{enumerate}
+
+	Dans cette analyse, je me concentrerais sur les premier et troisème points, qui s'articulent autour de la gestion de la classe 
+	et dont les éléments de réponse me semblent complémentaires.
+
+	Le point numéro 2 quant à lui concerne l'organisation des séances et évolue au fil des séances.
+	Enfin, le quatrième point mérite à mon sens une étude sur un plus long terme, je souhaite donc le développer au cours de mon \og{}Projet Collaboratif Innovant\fg{}.
+
+	\section{Travailler en monôme ou en binôme ?}
+	\subsection{Une question d'organisation}
+%* Dans la salle, il y a un ordinateur par élève, les élèves se mettent naturellement chacun devant une machine. Il se sont placés par affinité.
+	La salle d'activité pratique est organisée en ilôts de quatre postes informatiques, et d'autant de chaises.
+	Il y a suffisamment de postes pour que chaque élève puisse avoir accès au sien.
+	Les élèves se sont naturellement placés devant une machine, l'organisation dans les ilôts s'est faite par affinité.
+%* Il y a 4 machines par ilôt, donc max 4 élèves. Les élèves au sein d'un ilôt ont chacun leur machine, mais peuvent facilement communiquer (et y sont autorisés).
+	Bien que chaque élève soit seul en face de sa machine, ils peuvent aisément communiquer entre eux au sein d'un ilôt, et y sont autorisés.\\
+
+%* Les premières séances ont consisté en des études de dossier ayant pour objectif de découvrir le langage SysML.
+%Ces travaux ne nécessitent pas de matériel, hormis les systèmes étudiés dans les différentes activités.
+%Ce matériel n'est pas présent en nombre suffisant pour que chaque ilôt ou binôme dispose du sien.
+	Les premières séances ont consisté en des études de dossier ayant pour objectif de découvrir le langage SysML.
+	Ces travaux ne nécessitent pas de matériel, hormis les systèmes étudiés dans les différentes activités.
+	Ce matériel n'est pas disponible en nombre suffisant pour que chaque ilôt ou binôme dispose du sien et circule donc dans la classe pendant l'activité.
+
+%	* Les activités suivantes, ayant eu lieu entre la visite et la rédaction de ce document, abordent les notion de codage de l'information et du numération.
+%Ces activités ne nécessitent pas plus de matériel et les élèves travaillent toujours face à leur machine.
+%	* Lors des séances futures, en énergie notamment, les élèves seront amenés à plutôt manipuler les maquettes en groupe.
+	Les activités suivantes, ayant eu lieu entre la visite et la rédaction de ce document, abordent les notion de codage de l'information et du numération.
+	Ces activités ne nécessitent pas plus de matériel et les élèves travaillent toujours face à leur machine.
+	Lors des séances futures, en énergie notamment, les élèves seront amenés à plutôt manipuler les maquettes en groupe.\\
+
+%* Lors d'une séance, nous sommes deux professeurs pour une classe entière. 
+%Je m'adapte aux méthodes de ma collègue, qui agit selont le fonctionnement de l'établissement.
+	Au cours de la séance, je m'adapte aux méthodes de ma collègue Nathalise Lebarbier, avec qui je co-anime la séance.
+	En tant que nouvel arrivant, je m'adapte à sa manière de travailler, fidèle au fonctionnement de l'établissement.
+
+	\subsection{Le travail en monôme et l'autonomie}
+
+%Elle préfère voir les élèves travailler en monome, pour plusieurs raisons :
+%	* La quantité de bruit est moins élevée. L'augmentation naturelle du volume sonore des élèves qui travaillent en groupe incite les élèves à parler encore plus fort. 
+%Lorsqu'ils travaillent en binôme, il faut régulièrement les rapeller à l'ordre.
+%	* L'évaluation, par compétences ou non, est plus aisée.
+%	* Lors du baccalauréat, les élèves seront seuls face à leur copie. 
+%Même si cette affirmation n'est pas fausse en soit, je ne suis pas tout à fait d'accord avec cet argument: 
+%même s'il reste un objectif indispensable, le bac n'est, à mon sens, pas le seul objectif de la formation: 
+%La formation vise également à engager les élèves dans une poursuite d'études, pour qu'ils puissent, par la suite, s'intégrer dans le monde de l'entreprise.
+%Les jeunes bacheliers seront alors bien évidemment amenés à collaborer avec leurs pairs, d'abord dans l'enseignement supérieur, 
+%et à plus forte raison dans leur carrière professionnelle.
+	Au cours de discution avec mes collègues, plusieurs motifs sont énoncés pour justifier le travail en autonomie des élèves.
+	D'abord, de manière assez pragmatique, la quantité de bruit dans la salle est moins élevée. 
+	L'augmentation naturelle du volume sonore des élèves qui travaillent en groupe incite leurs camarades à parler encore plus fort, phénomène qui s'amplifie rapidement. 
+	Lorsqu'ils travaillent en binômes, il faut régulièrement rapeller les élèves à l'ordre.
+
+	Ensuite, quand les élèves travaillent seuls, il est plus aisé d'évaluer leur niveau et de remédier à des difficultés. 
+	Au contraire, lorsqu'ils travaillent en groupe, certaines difficultés peuvent passer inaperçu.
+
+	Enfin, lorsqu'ils passeront les épreuves du baccalauréat, les élèves seront seuls face à leur copie.
+	Même si cette affirmation n'est pas fausse en soit, j'aimerais ajouter un eu de nuances à cet argument.
+	Même s'il reste un objectif indispensable, le bac n'est, à mon sens, pas le seul objectif de la formation.
+	La formation vise en effet également à engager les élèves dans une poursuite d'études, pour qu'ils puissent, par la suite, s'insérer dans le monde de l'entreprise.
+	Les jeunes bacheliers seront alors bien évidemment amenés à collaborer avec leurs pairs, 
+	d'abord dans l'enseignement supérieur, et à plus forte raison dans leur carrière professionnelle.\\
+
+%* La mise en binôme de deux élèves est souvent bénéfique. Les deux élèves n'ont pas les mêmes niveaux de compréhension dans tous les dommaines.
+%L'élève ayant un meilleur niveau de compréhension des notions abordées par l'activité en cours va souvent ré-expliquer ces notions à son binôme, 
+%les rôles pouvant s'inverser en fonction des activités.
+%Cette reformulation est bénéfique pour les deux membres, d'une part un élève ayant des difficultés pourra tirer bénéfice de la reformulation d'un de ces camarades.
+%D'autre part, l'élève qui reformule les notions s'assure de mieux les comprendre et de mieux les retenir.
+%* Il faut toutefois veiller, notamment lors d'une grande différence de niveaux, que l'élève ayant le plus de facilité ne réalise pas le travail à la place de son camarade.
+%* En faisant travailler les élèves en monôme, j'ai pu constater que certains élèves ne sont pas familiarisé à l'utilisation de systèmes informatiques. 
+%Je préfère m'assurer qu'ils aient tous l'opportunité de le manipuler, car je suis convaincu que ce n'est qu'en manipulant qu'ils pourront mieux s'y familiariser.
+
+	\subsection{Le travail en groupe et la collaboration}
+%Même s'il a été admis que, dans le monde de l'entreprise, on est amené à collaborer avec ses pairs, il est rare, dans l'industrie de travailler en binôme sur un même poste. Les élèves doivent ainsi, selon moi, apprendre à collaborer, tout en fournissant un travail personnel.
+
+
 \end{document}

@@ -71,6 +71,8 @@ les rôles pouvant s'inverser en fonction des activités.
 Cette reformulation est bénéfique pour les deux membres, d'une part un élève ayant des difficultés pourra tirer bénéfice de la reformulation d'un de ces camarades.
 D'autre part, l'élève qui reformule les notions s'assure de mieux les comprendre et de mieux les retenir.
 * Il faut toutefois veiller, notamment lors d'une grande différence de niveaux, que l'élève ayant le plus de facilité ne réalise pas le travail à la place de son camarade.
+* En faisant travailler les élèves en monôme, j'ai pu constater que certains élèves ne sont pas familiarisé à l'utilisation de systèmes informatiques. 
+Je préfère m'assurer qu'ils aient tous l'opportunité de le manipuler, car je suis convaincu que ce n'est qu'en manipulant qu'ils pourront mieux s'y familiariser.
 
 
 
@@ -104,7 +106,7 @@ Cependant, les élèves ont été amenés à travailler sur un fichier image, à
 * Regardant l'interactivité classe/professeur
 	* L'activité visitée était la dernière d'une séquence de trois activités. 
 Le groupe étant très hétérogène, j'ai proposé aux élèves les plus rapides de prendre de l'avance, tandis que j'ai préféré laisser les élèves moins rapides finir les activités précédentes.
-Ainsi, au début de la troisème séance, certains élèves avaient presque terminé la troisième activité alors que d'autres en étaient encore au début de la deuxième.
+Ainsi, au début de la troisième séance, certains élèves avaient presque terminé la troisième activité alors que d'autres en étaient encore au début de la deuxième.
 J'ai finalement passé la séance à faire du cas par cas et a répéter beaucoup d'explications.
 	* Mes principales difficultés dans cette interactivité proviennent de la gestion de l'hétérogénéité du groupe.
 * Comment faire face à l'hétérogénéité du groupe:
