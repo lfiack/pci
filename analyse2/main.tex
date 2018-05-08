@@ -1,0 +1,220 @@
+\documentclass[pdftex,a4paper,12pt]{article}
+
+\usepackage[francais]{babel}
+\usepackage{epsfig}
+\usepackage{amsfonts}
+\usepackage[utf8x]{inputenc}
+%\usepackage{palatino}
+\usepackage{mathptmx}
+\usepackage{geometry}
+\usepackage{float}
+\usepackage{amsmath}
+\usepackage[babel=true]{csquotes}
+\usepackage{graphicx}
+\usepackage{algorithm}
+\usepackage{algorithmic}
+\usepackage{listings}
+\usepackage{color}
+\usepackage[squaren, Gray, cdot]{SIunits}
+\usepackage[square]{natbib}
+\usepackage{eurosym}
+\usepackage{listings}
+
+\geometry{a4paper,headheight=16pt,tmargin=20mm,
+          bmargin=20mm,lmargin=20mm,rmargin=20mm}
+%\geometry{height=23cm}
+%\geometry{hmargin={3cm,2cm}}
+
+\usepackage{caption}
+\usepackage{subcaption}
+
+\usepackage{minitoc}
+%\setcounter{minitocdepth}{3}
+\mtcselectlanguage{french} 
+
+\usepackage{hyperref}
+
+\usepackage{tabularx}
+\usepackage{array}
+\usepackage[normalem]{ulem}
+\newcolumntype{L}[1]{>{\raggedright\let\newline\\\arraybackslash\hspace{0pt}}m{#1}}
+\newcolumntype{C}[1]{>{\centering\let\newline\\\arraybackslash\hspace{0pt}}m{#1}}
+\newcolumntype{R}[1]{>{\raggedleft\let\newline\\\arraybackslash\hspace{0pt}}m{#1}}
+
+\usepackage[printonlyused,withpage]{acronym}
+
+\newcommand{\figpath}{figures}
+
+%Règles de dépôt : vous devrez déposer un document unique comprenant :
+%une page de garde avec votre nom et votre prénom, le niveau de la classe,
+%l’indication et l’intitulé de l’unité d’enseignement et l’année universitaire en
+%cours. 
+%Une introduction d’une quinzaine de lignes pour indiquer le contexte
+%(situation géographique, effectif...) 
+% La rédaction de votre analyse réflexive en
+%réponse aux questions de votre tuteur ESPE (3/4 pages maximum). Des
+%annexes si nécessaire.
+
+%\hyphenation{hexa-d\'ecimal}
+
+% PLAN ANALYSE 2
+% I Introduction
+%	a Contexte
+% 		Rappel lycée (?) + Matières / Classe
+%		Lundi 19 mars 2018
+%	b Rappels (TODO trouver mieux)
+% 		Reprise des conclusions de l'analyse 1
+% II L'analyse de séance
+%	a La séance analysée
+% 		La séance analysée au sein de la séquence
+%	b Axes améliorés
+% 		Prise en compte des conseils suite à la première visite: 
+% 			Qu'est-ce qui a marché, qu'est-ce qui n'a pas marché
+% III Piste de réflexion
+%	a Problématique
+%	 	Prévoir un temps suffisant pour (faire) conclure / (faire) résumer le travail réalisé lors de la séance.
+%	b Synthèse en classe entière
+%	c Synthèse courte en fin de séance
+% IV Conclusion
+
+\sloppy
+\begin{document}
+	\input{title}
+%Une introduction d’une quinzaine de lignes pour indiquer le contexte
+%(situation géographique, effectif...) 
+	\section{Introduction}
+ 	\subsection{Contexte}
+	% Présentation lycée (effectif de 1200 éleves, 120 profs, 60 personnels)
+	Je suis entré en fonction le premier septembre 2017 en tant que professeur agrégé stagiaire au Lycée Polyvalent Blaise Pascal de Rouen.
+	Ce lycée compte un effectif de 1200 élèves pour 120 professeurs et 60 personnels non-enseignants.
+
+	% Classes (Seconde GT SI, Première STI2D)
+	Au cours de cette année, j'interviens auprès de deux classes, une classe de seconde générale et technologique et une classe de première STI2D.\\
+
+	% ETT (5h de TP en coenseignement, 2h en classe entière (partagée avec la co-enseignante))
+	La séance analysée dans ce document est une séance d'Enseignements Technologiques Transversaux (ETT).
+	Cette discipline représente un volume horaire de 7h hebdomadaires réparties de la manière suivante : 
+	\begin{itemize}
+		\item 5h d'Applications Pratiques (AP) réparties en 2 séances de 2h30 en co-enseignement,
+		\item 2h de cours en classe entière, partagés entre ma collègue Mme Nathalie Lebarbier et moi-même.\\
+	\end{itemize}
+
+	% Annonce analyse
+	Ce document présente l'analyse réflexive de la séance d'Applications Pratiques en ETT du lundi 19 mars 2018, ayant fait l'objet d'une visite de la part de mon tuteur terrain M. Urvoy et de mon tuteur ESPE M. Jeandeau.
+
+	\subsection{Retour sur l'analyse précédente}
+	% Organisation et tenue de la classe:
+	Dans l'analyse précédente, nous nous sommes concentré sur des problématiques liées à l'organisation et la tenue de la classe.
+
+	% Travail en monôme/binôme
+	Nous avons d'abord questionné la pertinence du travail en monôme vis à vis d'une organisation en binômes ou en îlots de 4.
+	Au vu des avantages des deux types d'organisations, j'ai privilégié le travail en monôme lorsque la logistique le permettait,
+	tout en favorisant le travail en binôme dans d'autres situations.\\
+
+	% Interactivité classe/professeur dans un contexte de classe très hétérogène
+	La seconde piste de réflexion concerne l'interactivité classe/professeur dans un contexte d'une classe très hétérogène.
+	En effet, de part un niveau très disparate, le lancement des activités et les synthèse étaient difficile à organiser.
+
+	Ce point a été résolu en proposant des activités \og{} à plusieurs vitesse \fg{}, 
+	du travail supplémentaire motivant pour les élèves plus performant, 
+	et aussi en apportant une aide plus personnalisée aux élèves en retard.\\
+
+	% Apporter plus de concret dans les activités
+	% Variété des supports pédagogiques
+	Enfin, le dernier point analysé a consisté à apporter plus de concret dans les activités et plus de variété dans les supports pédagogiques.
+	Ce point dépend fortement des thématiques abordées, mais une attention particulière a été portée sur les supports : 
+	document papier, fichier PDF, site web, logiciels interactifs, mini-exercices, extraits de documentation, etc...
+
+	\section{L'analyse de séance}
+	\subsection{Séquence pédagogique sur les modèles algorithmiques}
+	La séance d’activité pratique présentée le lundi 19 mars 2018, intitulée \og{} Structures élémentaires d’algorithmique \fg{}, 
+	s'inscrit dans une séquence pédagogique sur les modèles algorithmiques. 
+
+	Cette dernière étant la suite directe d’une séquence sur la logique combinatoire, qui a reçu un bon accueil de la part des élèves. 
+	Il s'agit donc de s’appuyer sur les acquis en logique combinatoire pour développer les connaissances et compétences 
+	sur les modèles algorithmiques.
+
+	Cette séquence survient également après une séquence sur l'énergie qui a été moins bien perçue par une grande partie de la classe, 
+	notamment en ce qui concerne la manipulation des formules physiques et des unités. 
+	J'essaie donc, au cours de cette séquence, de rappeler certaines notions en énergie, et à manipuler diverses formes d’unités, 
+	liées ou non à l'énergie.
+
+	Cette séquence sur les modèles algorithmiques est prévue pour une durée de 4 semaines.\\
+
+	La séquence démarre par une séance d’activité pratique, où sont d'abord présentés les enjeux de l'algorithmique, ainsi que la plateforme sur 
+	laquelle les élèves seront amené à travailler : le robot mOway.
+	Les élèves découvrent la plateforme à travers ses chaînes d'énergie et d'information, 
+	puis abordent les modèles algorithmiques grâce à plusieurs courtes vidéos.
+
+	La séance de cours en classe entière est conçue autour de la construction de l'algorithme d'un jeu simple de manière interactive.
+	Un joueur pense à un nombre, l'autre joueur dispose de dix essais pour tenter de le deviner par dichotomie.
+
+	Une fiche de synthèse et d’exercices est également distribuée aux élèves. Ils doivent lire la synthèse 
+	et remplir un QCM en ligne pour la semaine suivante.
+
+	\subsection{La séance analysée}
+	L'activité \og{} Structure élémentaire d’algorithmique \fg{} consiste à concevoir plusieurs algorithmes 
+	en fonction de petits défis à faire réaliser à un robot mobile, le mOway. 
+	Le début de l'activité est plutôt simple et dirigiste, pour laisser le temps aux élèves de prendre en main l'environnement de travail. 
+	Les algorithmes suivant gagnent en complexité et les élèves gagnent en autonomie au fur et à mesure de l'activité.
+
+	La vitesse de déplacement du robot étant réglable, les élèves sont amenés à prendre des mesures, 
+	manipuler des unités (distance, vitesse), prédire des résultats et confronter leur prédictions à l'expérimentation.
+
+	Les élèves ont un document réponse sur lequel ils reportent leur mesures, ainsi que leurs algorithmes au format texte et graphique. 
+	Ils doivent également régulièrement m’appeler pour faire le point. 
+	Ils sont ainsi évalués à la volée.\\
+
+	Au cours de l'activité, les élèves travaillent en binôme. 
+	Les groupes sont conçus pour mélanger au maximum les deux spécialités, SIN et ITEC, ainsi qu'à favoriser les binômes efficaces.
+
+	L'activité est centrée sur la programmation d'un objet tangible et concret, ce qui a fortement attiré l'attention des élèves.
+	Tout au long de la séquence, les supports étaient variés : documents papier et PDF, projection de diaporamas, exercices, QCM en ligne.
+
+	L'activité est constituée de deux parties, une partie \og{} obligatoire \fg{} et une partie \og{} aller plus loin \fg{}.
+	Cette organisation permet de donner plus de travail aux élèves les plus performants tout en évitant de décourager les élèves en difficulté.
+
+	\section{Piste de réflexion}
+	%Problématique
+	La séance présentée lors de la visite s'est achevée sans que je puisse présenter un résumé ou une conclusion, 
+	une synthèse ayant été prévue pour la séance en classe entière.
+	Bien que la synthèse en classe entière soit utile pour aider à la mémorisation des modèles algorithmiques, 
+	une synthèse courte en fin de séance permet de conclure la séance et d'apporter un peu de recul sur ce que les élèves viennent de réaliser.
+
+	\subsection{Synthèse en classe entière}
+	Au cours de la séance en classe entière suivant l'activité présentée, 20 minutes ont été accordées à la synthèse de l'activité.
+	Les élèves ont été interrogés sur les modèles algorithmiques découverts au cours de la séance d'activité.
+	Les modèles ont été classés selon deux familles, les structures itératives et les structures conditionnelles.
+	Chaque modèle était accompagné d'un exemple donné sous forme texte et graphique.
+
+	\subsection{Synthèse courte en fin de séance}
+	Réserver vingt minutes pour la conclusion d'une séance de deux heures et demie, déjà raccourcie par la récréation, semble surdimensionné.
+	Il aurait néanmoins été possible d'allouer environ cinq minutes en fin de séance pour résumer et rappeler ce qui venait d'être fait,
+	dans le but de permettre aux élèves d'avoir une vision plus claire et d'apporter un peu plus de perspective aux travaux pratiques.
+
+	Cette synthèse en fin de séance est facilitée par la présence d'une petite salle banalisée, juxtaposée à la salle de travaux pratiques,
+	déjà utilisée pour le lancement des activités.
+	Changer de salle permet de marquer une coupure vis-à-vis des manipulations.
+
+	La synthèse en fin de séance nécessite d'être particulièrement bien préparée, 
+	les élèves étant moins attentifs dans les dernières minutes de la séance.
+	Pour cette raison également, le changement de salle facilite l'attention de la part des élèves.\\
+
+	Concernant la séance analysée, j'aurais pu demander aux élèves de rappeler les différents défis réalisés.
+	Pour chaque défi, les élèves auraient pu indiquer quels structures algorithmiques ont été utilisées, et à quelles familles, 
+	itératives ou conditionnelles, elles appartiennent.
+
+	Cela aurait, à mon sens, apporté une conclusion satisfaisante à cette séance.
+
+	\section{Conclusion}
+	% Résumé document : Présentation séance visitée, modèles algorithmique, programmation robots
+	% Prise en compte de l'analyse précédente : organisation et tenue de la classe ; binôme/monôme, interactivité classe/professeur, plus de concret et de variété
+	% Point analysé : conclusion/résumé court en fin de séance
+
+	% Cette année : première expérience dans le secondaire, découverte des différentes facettes du métier (TODO lesquelles).
+	% Grâce à une constante remise en question et à l'aide des collègues : beaucoup d'améliorations dans l'organisation et la tenue de la classe, 
+	% mais aussi du contenu des cours
+	% L'ensemble est néanmoins largement perfectible, certains cours sont parfois assez mal perçus, mal expliqués, mal organisés.
+	% Le manque de confiance dans ces séances peut-être perçu par les élèves ce qui rends ces séances particulièrement difficiles.
+	% Ces séances sont déjà plus rares en cette fin d'année, et elles devraient se raréfier à mesure que je gagne en expérience.
+\end{document}
